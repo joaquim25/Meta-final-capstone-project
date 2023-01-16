@@ -12,6 +12,7 @@ const Products = ({ data }) => {
           img={item.img}
           price={item.price}
           description={item.description}
+          className="product"
         />
       ))}
     </div>

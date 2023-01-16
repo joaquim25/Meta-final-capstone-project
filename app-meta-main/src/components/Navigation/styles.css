@@ -13,18 +13,33 @@
 }
 
 .navigation .nav-link-higllighted {
-  background-color: var(--primary-bg-color);
-  color: var(--secondary-bg-color);
-  border-radius: var(--border-radius);
+  background-color: rgba(73, 94, 87, 0.2);
+  /* border: 1px solid rgba(73, 94, 87, 0.2); */
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.navigation:hover .nav-link-higllighted:hover {
+  background-color: rgba(73, 94, 87, 0.22);
+  /* border: 1px solid rgba(73, 94, 87, 0.4); */
+}
+
+.icon-basket {
+  float: right;
+  padding-left: 1em;
+  width: 22px;
+  height: 22px;
 }
 
 @media (max-width: 740px) {
   .navigation {
     background: var(--secondary-bg-color);
   }
+
   .navigation a {
     padding: 2px;
   }
+
   .navigation ul {
     gap: 10px;
     flex-direction: row;

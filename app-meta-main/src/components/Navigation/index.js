@@ -5,7 +5,7 @@ import Icons from "../Icon/Icons";
 import "./styles.css";
 
 const activeStyle = {
-  textDecoration: "underline",
+  textShadow: "2px 5px 4px rgba(0,0,0,0.3), 0px -5px 35px rgba(255,255,255,0.9)",
 };
 
 const getActiveStyle = ({ isActive }) => (isActive ? activeStyle : undefined);
@@ -47,15 +47,11 @@ const Navigation = () => {
             className="nav-link-higllighted"
             role="button"
             to={Routes.NotImplemented}
-            style={getActiveStyle}
           >
             Order online
-          </NavLink>
-        </li>
-
-        <li>
-          <NavLink role="button" to={Routes.NotImplemented}>
-            <Icon icon={Icons.Basket} />
+            <div className="icon-basket">
+              <Icon icon={Icons.Basket} />
+            </div>
           </NavLink>
         </li>
       </ul>

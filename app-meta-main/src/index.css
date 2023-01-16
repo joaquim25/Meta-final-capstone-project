@@ -43,9 +43,11 @@ h3 {
 h1 {
   font-size: 64pt;
 }
+
 h2 {
   font-size: 40pt;
 }
+
 h3 {
   font-size: 21pt;
 }
@@ -66,7 +68,7 @@ button {
   border-radius: var(--border-radius);
   cursor: pointer;
   font-weight: bold;
-  padding: 12px 22px;
+  padding: 14px 22px;
   font-size: 0.8em;
 }
 
@@ -76,6 +78,7 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+
 a:hover {
   color: var(--primary-bg-color);
 }
@@ -89,6 +92,11 @@ select {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16pt;
+}
+
+button:hover {
+  background-color: #dfbd13;
+  transition: 0.4s;
 }
 
 code {
@@ -112,7 +120,8 @@ code {
     padding: 0 3px;
     margin: auto;
   }
-  .rows-layout > * {
+
+  .rows-layout>* {
     width: 100%;
   }
 
@@ -141,7 +150,8 @@ option {
   max-width: 300px;
 }
 
-input, select {
+input,
+select {
   border: 1px solid var(--primary-bg-color);
   padding: 4px;
 }
