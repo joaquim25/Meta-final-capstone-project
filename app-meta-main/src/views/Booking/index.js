@@ -18,7 +18,7 @@ const Booking = () => {
   return (
     <section className="booking">
       <div className="booking-content">
-        <h1>Reserve a Table</h1>
+        <h2>Reserve a Table</h2>
         <BookingForm
           value={value}
           onChange={handleOnChange}

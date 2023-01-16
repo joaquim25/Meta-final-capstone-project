@@ -8,30 +8,16 @@ const defaultSubtitle = "Sorry, an unexpected error has occurred.";
 const ErrorPage = ({ title = "", subtitle = "", children }) => {
   const error = useRouteError();
   return (
-    <section className="panel-layout error-page">
-      <h1>{title || defaultTitle}</h1>
-      <h2>{subtitle || defaultSubtitle}</h2>
-      {children || (
-        <>
-          <p>
-            If you're having trouble using the site, please reach out to our
-            amazing <a href="mailto:support@littlelemon.com">support team</a>
-          </p>
-          <p>
-            We apologize for the inconvenience and thank you for your patience ♥
-          </p>
-        </>
-      )}
-      {error ? (
-        <p>
-          Error message:{" "}
-          <i>
-            {error.message} {error.statusText}
-          </i>
-        </p>
-      ) : null}
-      <Link to={Routes.Home}>Back to website</Link>
-    </section>
+    <div id="main">
+        <div id="hello">
+          <h1 id="one">S</h1>
+          <h1 id="two">O</h1>
+          <h1 id="three">R</h1>
+          <h1 id="four">R</h1>
+          <h1 id="five">Y</h1>
+        </div>
+      <h2 id="con">WE ARE UNDER CONSTRUCTION</h2>
+      </div>
   );
 };
 

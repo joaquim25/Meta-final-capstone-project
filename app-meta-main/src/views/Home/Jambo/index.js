@@ -4,7 +4,7 @@ import "./styles.css";
 
 const Jambo = () => {
   const handleOnReserveTable = () => {
-    console.log("go to reserve");
+    // here
   };
 
   return (

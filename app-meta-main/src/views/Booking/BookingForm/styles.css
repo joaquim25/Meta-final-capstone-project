@@ -23,4 +23,10 @@
   position: absolute;
   right: 100%;
   color: var(--main-color);
+  margin-right: .1em;
+}
+
+.form-line input, select{
+  margin-top: .2em;
+  border-radius: 7px;
 }
