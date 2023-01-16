@@ -1,0 +1,23 @@
+footer.footer {
+  display: flex;
+  text-align: center;
+  padding: .4em 0;
+  align-items: center;
+  gap: 1em;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+
+footer img.logo {
+  margin: 0;
+  width: 5em;
+}
+
+footer .copyright {
+  font-size: 0.5em;
+}
+
+footer nav ul {
+  font-size: 0.6em;
+  gap: 10px;
+}

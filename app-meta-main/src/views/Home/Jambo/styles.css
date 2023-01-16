@@ -1,0 +1,50 @@
+:root {
+  --offset-margin: 60px;
+}
+
+.jambo {
+  background-color: var(--primary-bg-color);
+  position: relative;
+  margin-bottom: var(--offset-margin);
+}
+
+.jambo h1 {
+  color: var(--main-color);
+}
+
+.jambo h2,
+.jambo p {
+  color: var(--secondary-bg-color);
+}
+
+.jambo img {
+  border-radius: var(--border-radius);
+  display: block;
+  position: relative;
+  height: 380px;
+  width: 340px;
+  object-fit: cover;
+  top: var(--offset-margin);
+}
+
+.jambo-content {
+  justify-content: space-between;
+  gap: 25%;
+}
+
+.jambo-content > div {
+  flex: 1;
+}
+
+.jambo-content__info {
+  padding: 25px 0;
+  width: auto;
+}
+
+.jambo-content__info h2 {
+  margin-bottom: 30px;
+}
+
+.jambo-content__info > button {
+  margin-top: 18px;
+}

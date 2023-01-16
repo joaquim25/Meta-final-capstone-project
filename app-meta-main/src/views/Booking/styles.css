@@ -1,0 +1,38 @@
+:root {
+  --backdrop-height: 100vh;
+}
+
+.booking {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.booking-content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: var(--backdrop-height);
+}
+
+.booking-content h1{
+  color: var(--highlight-color);
+  margin-top: .8em;
+  margin-bottom: -.8em;
+}
+
+.booking .backdrop {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  top: 0;
+  height: var(--backdrop-height);
+  opacity: 0.2;
+}

@@ -1,0 +1,9 @@
+article.specials {
+  padding: 0;
+}
+
+.specials .specials__title {
+  justify-content: space-between;
+  margin: 25px auto;
+  display: flex;
+}

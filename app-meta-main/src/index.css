@@ -1,0 +1,155 @@
+:root {
+  --main-color: #f4ce14;
+
+  --highlight-color: #333;
+
+  --secondary-light-color: #ee9972;
+  --secondary-dark-color: #fbdabb;
+
+  --primary-bg-color: #495e57;
+  --secondary-bg-color: #edefee;
+  --max-width: 1000px;
+  --border-radius: 16px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Markazi Text", serif;
+  line-height: 0.8;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 64pt;
+}
+h2 {
+  font-size: 40pt;
+}
+h3 {
+  font-size: 21pt;
+}
+
+p {
+  font-family: "Karla", sans-serif;
+  font-size: 16pt;
+  line-height: 1.5;
+  color: var(--primary-bg-color);
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+  border: none;
+  background: var(--main-color);
+  color: var(--highlight-color);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 22px;
+  font-size: 0.8em;
+}
+
+a {
+  border: none;
+  color: var(--highlight-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: var(--primary-bg-color);
+}
+
+body,
+input,
+label,
+input,
+select {
+  font-family: "Karla", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16pt;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@media (min-width: 740px) {
+  .rows-layout {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 740px) {
+  .rows-layout {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    padding: 0 3px;
+    margin: auto;
+  }
+  .rows-layout > * {
+    width: 100%;
+  }
+
+  body {
+    font-size: 18pt;
+  }
+}
+
+.panel-layout {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0;
+}
+
+label,
+input,
+select,
+option {
+  font-size: 14pt;
+  width: 100%;
+  max-width: 500px;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  max-width: 300px;
+}
+
+input, select {
+  border: 1px solid var(--primary-bg-color);
+  padding: 4px;
+}
+
+input:disabled {
+  background-color: var(--secondary-bg-color);
+}
+
+label {
+  font-weight: bold;
+}
