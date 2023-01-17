@@ -6,6 +6,7 @@
   background-color: var(--primary-bg-color);
   position: relative;
   margin-bottom: var(--offset-margin);
+  padding: 0 1em;
 }
 
 .jambo h1 {
@@ -32,7 +33,7 @@
   gap: 25%;
 }
 
-.jambo-content > div {
+.jambo-content>div {
   flex: 1;
 }
 
@@ -45,6 +46,12 @@
   margin-bottom: 30px;
 }
 
-.jambo-content__info > button {
+.jambo-content__info>button {
   margin-top: 18px;
+}
+
+@media (max-width: 740px) {
+  .jambo {
+    padding: 0 1em;
+  }
 }

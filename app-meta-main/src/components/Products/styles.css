@@ -2,6 +2,7 @@
   margin-top: 4em;
   align-items: flex-start;
   gap: 50px;
+  padding: 0 1em;
 }
 
 .product {
@@ -14,4 +15,10 @@
   box-shadow: 0 8px 16px 0 rgba(73, 94, 87, 0.2);
   background-color: rgba(73, 94, 87, 0.1);
   cursor: pointer;
+}
+
+@media (max-width: 740px) {
+  .products {
+    width: 60%;
+  }
 }

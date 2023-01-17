@@ -14,14 +14,13 @@
 
 .navigation .nav-link-higllighted {
   background-color: rgba(73, 94, 87, 0.2);
-  /* border: 1px solid rgba(73, 94, 87, 0.2); */
   border-radius: 6px;
   padding: 10px 15px;
 }
 
 .navigation:hover .nav-link-higllighted:hover {
-  background-color: rgba(73, 94, 87, 0.22);
-  /* border: 1px solid rgba(73, 94, 87, 0.4); */
+  background-color: rgba(73, 94, 87, 0.3);
+  transition: 0.7s;
 }
 
 .icon-basket {
@@ -38,6 +37,10 @@
 
   .navigation a {
     padding: 2px;
+  }
+
+  .icon-basket {
+    visibility: hidden;
   }
 
   .navigation ul {

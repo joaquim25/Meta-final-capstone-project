@@ -21,3 +21,10 @@ footer nav ul {
   font-size: 0.6em;
   gap: 10px;
 }
+
+@media (max-width: 740px) {
+  .footer {
+    background: var(--secondary-bg-color);
+    width: 100%;
+  }
+}

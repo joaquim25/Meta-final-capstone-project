@@ -7,3 +7,18 @@ article.specials {
   margin: 25px auto;
   display: flex;
 }
+
+@media (max-width: 740px) {
+  .specials__title>button {
+    display: none;
+  }
+
+  .specials .specials__title {
+    justify-content: space-around;
+  }
+
+  .specials__title {
+    background: var(--secondary-bg-color);
+    padding: .5em 0;
+  }
+}
