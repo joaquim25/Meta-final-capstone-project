@@ -13,14 +13,15 @@
 }
 
 .navigation .nav-link-higllighted {
-  background-color: rgba(73, 94, 87, 0.2);
+  background-color: var(--main-color);
   border-radius: 6px;
   padding: 10px 15px;
 }
 
 .navigation:hover .nav-link-higllighted:hover {
-  background-color: rgba(73, 94, 87, 0.3);
-  transition: 0.7s;
+  background-color: #dfbd13;
+  color: var(--secondary-bg-color);
+  transition: 0.8s;
 }
 
 .icon-basket {
